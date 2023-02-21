@@ -233,59 +233,54 @@ main .sfondo-grande .container .button{
   background-color: #8ea1e1;
 }
 
-
                   /* FINE BOX */
-
-                /*INIZIO SCURO*/
-
-main .sfondo.scuro{
-  background-color: #23272a;
-  border-bottom: 1px solid lightgray;
-}
-
-main .sfondo .content-rosa{
-  width: calc(100% / 3);
-  height: 450px;
-  background-color: #f08080;
-}
-
-main .sfondo .content-celeste{
-  width: calc(100% / 3 * 2);
-  height: 450px;
-  background-color: #20b2aa;
-}
-
-main .sfondo .content-celeste .row{
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
-
-main .sfondo .content-celeste .row .col{
-  border: 1px dashed white;
-  width: calc(100% / 4);
-  height: 450px;
-}
-
-                /*FINE SCURO*/
 
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
 
-footer .sfondo.scuro{
-  align-items: flex-end;
-  background-color: #23272a;
-  height: 100px;
+footer{
+  height: 600px;
+  background-color: #24272A;
 }
 
-footer .container{
+footer .top{
+  display: flex;
+
+  /* DEBUG */
+  height: 300px;
+  background-color: rgb(109, 208, 79);
+}
+
+footer .top .col-social{
+  width: calc(100% / 3);
+
+  /* DEBUG */
+  height: 100%;
+  background-color: rgb(156, 247, 129);
+}
+
+footer .top .col-menu{
+  width: calc(100% / 6);
+
+  /* DEBUG */
+  height: 100%;
+  background-color: rgb(180, 237, 162);
+  border: 1px solid black;
+}
+
+footer .bottom{
+  display: flex;
   justify-content: space-between;
-  height: 70%;
-  background-color: #7fffd4;
+
+  /* DEBUG */
+  height: 100px;
+  background-color: rgb(37, 131, 9);
 }
 
-footer .border{
-  background-color: #ffb6c1;
+
+.ico-social{
+  font-size: 40px;
+  color: blue;
 }
 /* FINE FOOTER */
