@@ -1,0 +1,193 @@
+/* INIZIO GENERAL */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  min-width: 600px;
+  width: 60%;
+}
+
+.flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.border{
+  border: 1px dashed black;
+}
+/* FINE GENERAL */
+
+/* INIZIO HEADER */
+header{
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 70px;
+  background-color: #add8e6;
+}
+
+.topmenu{
+  display: flex;
+  justify-content: space-between;
+
+  height: 40px;
+  background-color: #daa520;
+}
+
+header .border{ /*DIV LOGO E LOGIN*/
+  /* centrare verticalmente */
+  display: flex;
+  align-items: center;
+  /* centrare verticalmente */
+  width: 20%;
+}
+
+nav.border{
+  width: 60%;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  /* centrare gli elementi della lista */
+  list-style: none;
+}
+
+nav ul li{
+  margin-right: 15px;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+                /* INIZIO JUMBOTRON */
+
+main .jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 400px;
+  background-color: #00008b;
+}
+
+main .jumbotron .border{
+  width: 45%;
+  height: 80%;
+  background-color: #ee82ee;
+}
+
+                /* FINE JUMBOTRON */
+
+                /* INIZIO BOX */
+
+main .sfondo{
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
+}
+main .sfondo.bianco{
+  background-color: white;
+}
+
+main .sfondo.grigio{
+  background-color: lightgray;
+}
+
+main .sfondo .box-azzurro{
+  width: 60%;
+  height: 300px;
+  background-color: #1e90ff;
+}
+
+main .sfondo .box-rosa{
+  width: 40%;
+  height: 300px;
+  background-color: #ffc0cb;
+}
+
+                /* FINE BOX */
+
+                /*INIZIO VERDE*/
+
+main .sfondo-grande{
+  height: 1000px;
+  background-color: lightgray;
+}
+
+main .sfondo-grande .verde{
+  background-color: green;
+  height: 600px;
+}
+
+
+                /*FINE VERDE*/
+
+                /*INIZIO SCURO*/
+
+main .sfondo.scuro{
+  background-color: #23272a;
+  border-bottom: 1px solid lightgray;
+}
+
+main .sfondo .content-rosa{
+  width: calc(100% / 3);
+  height: 450px;
+  background-color: #f08080;
+}
+
+main .sfondo .content-celeste{
+  width: calc(100% / 3 * 2);
+  height: 450px;
+  background-color: #20b2aa;
+}
+
+main .sfondo .content-celeste .row{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+main .sfondo .content-celeste .row .col{
+  border: 1px dashed white;
+  width: calc(100% / 4);
+  height: 450px;
+}
+
+                /*FINE SCURO*/
+
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+
+footer .sfondo.scuro{
+  align-items: flex-end;
+  background-color: #23272a;
+  height: 100px;
+}
+
+footer .container{
+  justify-content: space-between;
+  height: 70%;
+  background-color: #7fffd4;
+}
+
+footer .border{
+  background-color: #ffb6c1;
+}
+/* FINE FOOTER */
